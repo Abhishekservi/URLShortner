@@ -15,7 +15,7 @@ def task(request):
 def home_page(request):
     context={
         "submitted":False,
-        "erro":False     
+        "error":False     
     }
     if request.method=="POST":
         #print(request.POST)
